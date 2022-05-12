@@ -1,4 +1,6 @@
-#1. Yêu cầu nhập vào tên người dùng, xuất ra dòng “Xin chào ” + tên người dùng. 
+# Link github: https://github.com/Qthu1995/Homework-Turing-Edtech
+
+""" #1. Yêu cầu nhập vào tên người dùng, xuất ra dòng “Xin chào ” + tên người dùng. 
 userName = input("Nhap vao ten nguoi dung: ")
 print(f"Hello {userName}")
 
@@ -25,6 +27,14 @@ R = float(input("Nhap ban kinh duong tron: "))
 print(f"Chu vi cua duong tron la: {round(2*math.pi*R, 2)}")
 print(f"Ban kinh cua duong tron la: {round(R**2*math.pi, 2)}")
 
+"""
+
 # 6. Viết chương trình nhập số nguyên dương n; tính tổng của 1 đến n. 
 n = int(input("Nhap so nguyen duong n: "))
 print(f"Tong cua chuoi tu 1 den n la: {int(n*(n+1)/2)}")
+
+
+import numpy as np
+a = np.arange(5)
+a
+
